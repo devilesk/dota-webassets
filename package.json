@@ -1,0 +1,15 @@
+{
+  "name": "dota-spritesheet",
+  "version": "1.0.0",
+  "description": "Generate dota image spritesheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "devilesk",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp.spritesmith": "^6.2.1"
+  }
+}
