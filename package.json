@@ -1,7 +1,7 @@
 {
-  "name": "dota-spritesheet",
+  "name": "dota-webassets",
   "version": "1.0.0",
-  "description": "Generate dota image spritesheets",
+  "description": "Generate dota images and spritesheets",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
