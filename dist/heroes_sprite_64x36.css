@@ -1,0 +1,810 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-heroes64x36_abaddon {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_abyssal_underlord {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -216px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_alchemist {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -36px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_ancient_apparition {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -36px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_antimage {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -72px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_arc_warden {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -72px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_axe {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_bane {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -36px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_batrider {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -72px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_beastmaster {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -108px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_bloodseeker {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -108px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_bounty_hunter {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -108px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_brewmaster {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -144px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_bristleback {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -144px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_broodmother {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -144px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_centaur {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_chaos_knight {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -36px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_chen {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -72px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_clinkz {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -108px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_creep_dire {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -144px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_creep_radiant {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -180px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_crystal_maiden {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -180px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_crystal_maiden_alt1 {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -180px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_dark_seer {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -180px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_dazzle {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -216px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_death_prophet {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -216px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_default {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -216px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_disruptor {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -216px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_doom_bringer {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_dragon_knight {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -36px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_drow_ranger {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -72px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_earth_spirit {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -108px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_earthshaker {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -144px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_elder_titan {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -180px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_ember_spirit {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -216px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_enchantress {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -252px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_enigma {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -252px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_faceless_void {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -252px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_furion {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -252px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_greevil {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -252px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_gyrocopter {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_huskar {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -36px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_invoker {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -72px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_jakiro {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -108px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_juggernaut {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -144px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_keeper_of_the_light {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -180px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_kunkka {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -216px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_legion_commander {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -252px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_legion_commander_alt1 {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -288px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_leshrac {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -288px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_lich {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -288px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_life_stealer {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -288px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_lina {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -288px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_lina_alt1 {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -288px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_lion {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -324px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_lone_druid {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -324px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_luna {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -324px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_lycan {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -324px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_magnataur {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -324px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_medusa {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -324px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_meepo {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_mirana {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -36px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_morphling {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -72px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_naga_siren {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -108px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_necrolyte {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -144px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_neutrals {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -180px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_nevermore {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_nevermore_alt1 {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -252px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_nian {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -288px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_nian_dire {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -324px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_night_stalker {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -360px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_nyx_assassin {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -360px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_obsidian_destroyer {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -360px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_ogre_magi {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -360px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_omniknight {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -360px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_oracle {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -360px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_phantom_assassin {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -360px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_phantom_assassin_alt1 {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -396px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_phantom_lancer {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -396px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_phoenix {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -396px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_puck {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -396px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_pudge {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -396px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_pugna {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -396px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_queenofpain {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -396px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_rattletrap {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_razor {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -36px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_riki {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -72px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_roshan {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -108px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_rubick {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -144px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_sand_king {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -180px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_shadow_demon {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -216px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_shadow_shaman {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -252px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_shredder {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -288px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_silencer {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -324px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_skeleton_king {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -360px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_skywrath_mage {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -396px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_slardar {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -432px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_slark {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -432px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_sniper {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -432px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_spectre {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -432px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_spirit_bear {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -432px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_spirit_breaker {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -432px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_storm_spirit {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -432px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_sven {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -432px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_techies {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -468px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_techies_alt1 {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -468px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_templar_assassin {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -468px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_terrorblade {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -468px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_terrorblade_alt1 {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -468px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_tidehunter {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -468px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_tinker {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -384px -468px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_tiny {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -448px -468px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_tower_dire {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_tower_radiant {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -36px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_treant {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -72px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_troll_warlord {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -108px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_tusk {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -144px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_undying {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -180px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_ursa {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -216px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_vengefulspirit {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -252px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_venomancer {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -288px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_viper {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -324px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_visage {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -360px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_warlock {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -396px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_weaver {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -432px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_windrunner {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -512px -468px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_winter_wyvern {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: 0px -504px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_wisp {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -64px -504px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_witch_doctor {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -128px -504px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_zeus_alt1 {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -192px -504px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_zuus {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -256px -504px;
+  width: 64px;
+  height: 36px;
+}
+.icon-heroes64x36_zuus_alt1 {
+  background-image: url(heroes_sprite_64x36.png);
+  background-position: -320px -504px;
+  width: 64px;
+  height: 36px;
+}

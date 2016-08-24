@@ -1,7 +1,11 @@
 {
   "name": "dota-webassets",
   "version": "1.0.0",
-  "description": "Generate dota images and spritesheets",
+  "description": "Dota images and spritesheets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devilesk/dota-webassets.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.1",
+    "gulp-image-resize": "^0.10.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-sequence": "^0.4.5",
     "gulp.spritesmith": "^6.2.1"
   }
 }

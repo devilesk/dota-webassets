@@ -1,0 +1,696 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-portraits64x84_npc_dota_hero_abaddon {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -64px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_abyssal_underlord {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -576px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_alchemist {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -128px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_ancient_apparition {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: 0px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_antimage {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -64px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_arc_warden {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -128px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_axe {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -192px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_bane {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -192px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_batrider {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: 0px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_beastmaster {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -64px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_bloodseeker {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -128px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_bounty_hunter {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -192px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_brewmaster {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -256px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_bristleback {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -256px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_broodmother {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -256px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_centaur {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -320px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_chaos_knight {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -320px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_chen {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -320px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_clinkz {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: 0px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_crystal_maiden {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -64px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_dark_seer {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -128px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_dazzle {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -192px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_death_prophet {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -256px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_default {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -320px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_disruptor {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -384px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_doom_bringer {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -384px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_dragon_knight {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -384px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_drow_ranger {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -384px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_earth_spirit {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: 0px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_earthshaker {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -64px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_elder_titan {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -128px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_ember_spirit {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -192px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_enchantress {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -256px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_enigma {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -320px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_faceless_void {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -384px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_furion {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -448px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_gyrocopter {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -448px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_huskar {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -448px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_invoker {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -448px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_jakiro {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -448px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_juggernaut {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: 0px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_keeper_of_the_light {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -64px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_kunkka {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -128px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_legion_commander {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -192px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_leshrac {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -256px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_lich {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -320px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_life_stealer {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -384px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_lina {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -448px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_lion {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -512px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_lone_druid {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -512px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_luna {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -512px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_lycan {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -512px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_magnataur {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -512px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_medusa {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -512px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_meepo {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -576px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_mirana {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -576px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_morphling {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: 0px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_naga_siren {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -576px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_necrolyte {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -576px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_nevermore {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -576px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_night_stalker {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: 0px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_nyx_assassin {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -64px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_obsidian_destroyer {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -128px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_ogre_magi {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -192px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_omniknight {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -256px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_oracle {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -320px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_phantom_assassin {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -384px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_phantom_lancer {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -448px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_phoenix {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -512px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_puck {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -576px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_pudge {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -640px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_pugna {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -640px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_queenofpain {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -640px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_rattletrap {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -640px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_razor {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -640px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_riki {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -640px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_rubick {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -640px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_sand_king {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: 0px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_shadow_demon {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -64px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_shadow_shaman {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -128px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_shredder {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -192px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_silencer {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -256px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_skeleton_king {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -320px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_skywrath_mage {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -384px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_slardar {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -448px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_slark {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -512px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_sniper {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -576px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_spectre {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -640px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_spirit_breaker {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -704px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_storm_spirit {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -704px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_sven {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -704px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_techies {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -704px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_templar_assassin {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -704px -336px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_terrorblade {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -704px -420px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_tidehunter {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -704px -504px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_tinker {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -704px -588px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_tiny {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: 0px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_treant {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -64px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_troll_warlord {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -128px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_tusk {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -192px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_undying {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -256px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_ursa {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -320px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_vengefulspirit {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -384px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_venomancer {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -448px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_viper {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -512px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_visage {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -576px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_warlock {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -640px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_weaver {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -704px -672px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_windrunner {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -768px 0px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_winter_wyvern {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -768px -84px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_wisp {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -768px -168px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_witch_doctor {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -768px -252px;
+  width: 64px;
+  height: 84px;
+}
+.icon-portraits64x84_npc_dota_hero_zuus {
+  background-image: url(portraits_sprite_64x84.png);
+  background-position: -768px -336px;
+  width: 64px;
+  height: 84px;
+}
