@@ -13,10 +13,14 @@
   "author": "devilesk",
   "license": "MIT",
   "dependencies": {
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
+    "gulp-csso": "^2.0.0",
     "gulp-image-resize": "^0.10.0",
     "gulp-imagemin": "^3.0.3",
     "gulp-sequence": "^0.4.5",
-    "gulp.spritesmith": "^6.2.1"
+    "gulp.spritesmith": "^6.2.1",
+    "merge-stream": "^1.0.0",
+    "vinyl-buffer": "^1.0.0"
   }
 }
