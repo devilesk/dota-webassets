@@ -15,7 +15,7 @@ function spriteTaskGenerator(imgRoot, name, sizePrefix) {
         var name_size = sizePrefix ?  name + '_' + sizePrefix : name;
         var spriteData = gulp.src('./dist/images/' + name_size + '/*').pipe(spritesmith({
             imgName: name_size + '_sprite.png',
-            imgPath: imgRoot + name + '/' + name_size + '_sprite.png',
+            imgPath: imgRoot + name_size + '/' + name_size + '_sprite.png',
             cssName: name_size + '_sprite.css',
             cssOpts: {
                 cssSelector: function (sprite) {
@@ -104,4 +104,4 @@ gulp.task('clean', function () {
     ], {force: true});
 });
     
-gulp.task('default', ['miniheroes', 'heroes', 'portraits']);
+gulp.task('default', gulpSequence('clean', ['miniheroes', 'heroes', 'portraits']));
