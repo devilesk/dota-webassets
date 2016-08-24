@@ -19,7 +19,7 @@ function spriteTaskGenerator(imgRoot, name, sizePrefix) {
             cssName: name_size + '_sprite.css',
             cssOpts: {
                 cssSelector: function (sprite) {
-                    return '.' + name + '-sprite-' + sprite.name + (sizePrefix ? ' .' + name + '-sprite-' + sizePrefix : '');
+                    return '.' + name + '-sprite-' + sprite.name + (sizePrefix ? '.' + name + '-sprite-' + sizePrefix : '');
                 }
             }
         }));
