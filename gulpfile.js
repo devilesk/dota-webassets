@@ -19,7 +19,7 @@ function spriteTaskGenerator(imgRoot, name, sizePrefix) {
             cssName: name_size + '_sprite.css',
             cssOpts: {
                 cssSelector: function (sprite) {
-                    return '.' + name + '-sprite-' + sprite.name + (sizePrefix ? '.' + name + '-sprite-' + sizePrefix : '');
+                    return '.' + name + '-sprite-' + sprite.name.replace('.', '-') + (sizePrefix ? '.' + name + '-sprite-' + sizePrefix : '');
                 }
             }
         }));
@@ -97,6 +97,8 @@ function taskGenerator(imgRoot, name, sizes) {
 taskGenerator(imgRoot, 'miniheroes');
 taskGenerator(imgRoot, 'heroes', [[64, 36], [32, 18]]);
 taskGenerator(imgRoot, 'portraits', [[64, 84], [32, 42]]);
+taskGenerator(imgRoot, 'items', [[50, 36], [36, 26], [25, 18]]);
+taskGenerator(imgRoot, 'spellicons', [[64, 64], [32, 32]]);
     
 gulp.task('clean', function () {
     return del([
@@ -104,4 +106,4 @@ gulp.task('clean', function () {
     ], {force: true});
 });
     
-gulp.task('default', gulpSequence('clean', ['miniheroes', 'heroes', 'portraits']));
+gulp.task('default', gulpSequence('clean', ['miniheroes', 'heroes', 'portraits', 'items', 'spellicons']));
