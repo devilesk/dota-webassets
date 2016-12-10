@@ -13,7 +13,7 @@ var imgRoot = '../images/';
 function spriteTaskGenerator(imgRoot, name, sizePrefix, imageExt) {
     return function () {
         var name_size = sizePrefix ?  name + '_' + sizePrefix : name;
-        var spriteData = gulp.src('./dist/images/' + name_size + '/*').pipe(spritesmith({
+        var spriteData = gulp.src('./tmp/images/' + name_size + '/*').pipe(spritesmith({
             imgName: name_size + '_sprite.' + imageExt,
             imgPath: imgRoot + name_size + '/' + name_size + '_sprite.' + imageExt,
             cssName: name_size + '_sprite_' + imageExt + '.css',
@@ -45,19 +45,20 @@ function taskGenerator(imgRoot, name, sizes, imgTypes) {
     gulp.task(cleanTaskName, function () {
         var arr = imgTypes.map(function (imgType) { return './dist/css/' + name + '_sprite_' + imgType + '.css'; });
         arr.push('./dist/images/' + name + '/*');
+        arr.push('./tmp/images/' + name + '/*');
         return del(arr, {force: true});
     });
     
     gulp.task(copyTaskName, function() {
         return gulp.src('./images/' + name + '/src/*')
             .pipe(imagemin())
-            .pipe(gulp.dest('./dist/images/' + name));
+            .pipe(gulp.dest('./tmp/images/' + name));
     });
     
     gulp.task(fixTaskName, function() {
         return gulp.src('./images/' + name + '/fix/*')
             .pipe(imagemin())
-            .pipe(gulp.dest('./dist/images/' + name));
+            .pipe(gulp.dest('./tmp/images/' + name));
     });
         
     var sizes = sizes || [];
@@ -71,11 +72,12 @@ function taskGenerator(imgRoot, name, sizes, imgTypes) {
         gulp.task(cleanTaskName2, function () {
             var arr = imgTypes.map(function (imgType) { return './dist/css/' + name + '_sprite' + '_' + sizePrefix + '_' + imgType + '.css'; });
             arr.push('./dist/images/' + name + '_' + sizePrefix + '/*');
+            arr.push('./tmp/images/' + name + '_' + sizePrefix + '/*');
             return del(arr, {force: true});
         });
 
         gulp.task(name + '-resize-' + sizePrefix, function() {
-            return gulp.src('./dist/images/' + name + '/*')
+            return gulp.src('./tmp/images/' + name + '/*')
                 .pipe(imageResize({
                     width : width,
                     height : height,
@@ -83,7 +85,7 @@ function taskGenerator(imgRoot, name, sizes, imgTypes) {
                     upscale : false
                 }))
                 .pipe(imagemin())
-                .pipe(gulp.dest('./dist/images/' + name + '_' + sizePrefix));
+                .pipe(gulp.dest('./tmp/images/' + name + '_' + sizePrefix));
         });
     });
         
@@ -136,7 +138,8 @@ taskGenerator(imgRoot, 'spellicons', [[64, 64], [32, 32]], ['png', 'jpg']);
     
 gulp.task('clean', function () {
     return del([
-        './dist/**/*'
+        './dist/**/*',
+        './tmp/**/*'
     ], {force: true});
 });
     
