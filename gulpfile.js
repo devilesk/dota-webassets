@@ -8,6 +8,12 @@ var buffer = require('vinyl-buffer');
 var csso = require('gulp-csso');
 var del = require('del');
 
+gulp.task('clean-src', function () {
+    return del([
+        './images/**/*'
+    ], {force: true});
+});
+
 var imgRoot = '../img/';
 
 function spriteTaskGenerator(imgRoot, name, sizePrefix, imageExt) {
@@ -50,13 +56,13 @@ function taskGenerator(imgRoot, name, sizes, imgTypes) {
     });
     
     gulp.task(copyTaskName, function() {
-        return gulp.src('./images/' + name + '/src/*')
+        return gulp.src('./images/' + name + '/*')
             .pipe(imagemin())
             .pipe(gulp.dest('./tmp/img/' + name));
     });
     
     gulp.task(fixTaskName, function() {
-        return gulp.src('./images/' + name + '/fix/*')
+        return gulp.src('./override/' + name + '/*')
             .pipe(imagemin())
             .pipe(gulp.dest('./tmp/img/' + name));
     });
