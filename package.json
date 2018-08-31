@@ -22,5 +22,8 @@
     "gulp.spritesmith": "^6.2.1",
     "merge-stream": "^1.0.0",
     "vinyl-buffer": "^1.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.20.7"
   }
 }
